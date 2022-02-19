@@ -29,7 +29,7 @@ The blog is hosted using Sourcehut Pages. Those of you who have used GitHub/GitL
 
 While Sourcehut Pages is an excellent, straightforward way to host a blog, there is one downside – the repo can't be larger than 1GB. Although this isn't a huge problem, it does mean that it isn't wise to keep lots of large images inside the repo.
 
-To get around this restriction, I've chosen to host my images using Linode's object storage[^1]. This gives me a massive 250GB for $5 USD per month. That's overkill, of course, but does let me upload as many high quality photos of my projects as I like. No doubt I'll find other uses for all this storage as time goes on.
+To get around this restriction, I've chosen to host my full size images using Linode's object storage[^1]. This gives me a massive 250GB for $5 USD per month. That's overkill, of course, but does let me upload as many high quality photos of my projects as I like. No doubt I'll find other uses for all this storage as time goes on.
 
 Object storage is ideal for a couple of reasons. Firstly, I don't need to set up an Nginx server (at which point I may as well be hosting my own blog). And secondly, it means I can use Linode's CLI tool to upload my images.
 
@@ -52,7 +52,7 @@ function send2obj
 
 That way I can add unnecessary images to posts in seconds!
 
-![Screenshot of the blog post in Emacs.](https://michaelhoward.ap-south-1.linodeobjects.com/how-i-blog-screenshot.png "Screenshot of this post in Emacs")
+[![Screenshot of the blog post in Emacs.](/images/how-i-blog-screenshot-scaled.png "A scaled screenshot of this post in Emacs")](https://michaelhoward.ap-south-1.linodeobjects.com/how-i-blog-screenshot.png)
 
 ## Conclusion
 
