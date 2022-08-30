@@ -31,7 +31,7 @@ Usability wise, the real issue is not having a convenient shortcut. Having to sw
 
 At this point, I realised that I could bypass the console altogether by using the Run command window. Pressing Win + R opens the Run dialog which can be used to start the `scrnsave.scr` command.
 
-{{< figure src="https://michaelhoward.ap-south-1.linodeobjects.com/scrnsave_run_dialog.png" title="Run dialog screenshot" >}}
+{{< figure src="https://assets.michaelhoward.kiwi/scrnsave_run_dialog.png" title="Run dialog screenshot" >}}
 
 Note that only the `scrnsave.scr` part of the command is necessary. Hitting Enter will then turn on the screensaver and hitting it again will disable it.  
 
