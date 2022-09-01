@@ -1,2 +1,0 @@
-User-Agent: *
-Sitemap: https://michaelhoward.kiwi/sitemap.xml
