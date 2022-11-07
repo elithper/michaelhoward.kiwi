@@ -1,6 +1,6 @@
 +++
 title = "Refreshing multiple e-ink displays on Linux using Python"
-date = "2022-10-28"
+date = "2022-11-07"
 description = "Using a pair of Python scripts and keyboard shortcuts to refresh e-ink/e-paper monitors on Linux."
 tags = ["linux", "e-ink", "python"]
 +++
