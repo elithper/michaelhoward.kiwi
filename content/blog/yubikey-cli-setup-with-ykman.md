@@ -18,6 +18,7 @@ On Debian/Ubuntu systems, the package can be found under the name `yubikey-manag
 You will also need the PC/SC Smart Card Daemon `pcscd`. In my case, this was already installed but the service needed to be enabled.
 
 `sudo systemctl enable pcscd.service`
+
 `sudo systemctl start pcscd.service`
 
 ## Setting a FIDO pin
@@ -36,7 +37,7 @@ To set these up, you need a secret provided by the site you're logging into. Oft
 
 `otpauth://...`
 
-The format for adding an account via a secret is `ykman oath accounts add [OPTIONS] <name> <secret>. For example:
+The format for adding an account via a secret is `ykman oath accounts add [OPTIONS] <name> <secret>`. For example:
 
 `ykman oath accounts add geocities JBSWY3DPEHPK3PXP`
 
