@@ -9,10 +9,12 @@ I'm Michael, a delivery engineer living and working in Wellington, NZ. I'm also 
 
 My current obsessions are:
 - Mechanical keyboards (small, ergonomic boards, in particular).
-- Eink displays and devices
+- E-ink displays and devices
 - Coffee
 - Automation
 
 When not hunched over my computer at home, you can catch me hunched over my computer in a local cafe.
 
 Code referenced on this blog (including the blog itself) can be found at <https://git.sr.ht/~elithper/>
+
+I like to keep track of things with lists. Short-form updates are posted at <https://lists.michaelhoward.kiwi>
