@@ -69,4 +69,5 @@ devices: (
 }
 );
 ```
-[^1] What's more, these can combined with mouse movements to create 'gestures'.
+
+[^1]: What's more, these can combined with mouse movements to create 'gestures'.
