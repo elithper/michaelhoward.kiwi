@@ -52,7 +52,7 @@ function send2obj
 
 That way I can add unnecessary images to posts in seconds!
 
-[![Screenshot of the blog post in Emacs.](/images/how-i-blog-screenshot-scaled.png "A scaled screenshot of this post in Emacs")](https://michaelhoward.ap-south-1.linodeobjects.com/how-i-blog-screenshot.png)
+[![Screenshot of the blog post in Emacs.](/images/how-i-blog-screenshot-scaled.png "A scaled screenshot of this post in Emacs")](https://assets.michaelhoward.kiwi/how-i-blog-screenshot.png)
 
 ## Conclusion
 
