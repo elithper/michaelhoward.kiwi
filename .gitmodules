@@ -1,3 +1,3 @@
 [submodule "themes/hugo-bearblog"]
 	path = themes/hugo-bearblog
-	url = git@git.sr.ht:~elithper/hugo-bearblog
+	url = https://git.sr.ht/~elithper/hugo-bearblog
