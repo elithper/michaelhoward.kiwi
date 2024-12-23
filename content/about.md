@@ -16,5 +16,3 @@ My current obsessions are:
 When not hunched over my computer at home, you can catch me hunched over my computer in a local cafe.
 
 Code referenced on this blog (including the blog itself) can be found at <https://git.sr.ht/~elithper/>
-
-I like to keep track of things with lists. Short-form updates are posted at <https://lists.michaelhoward.kiwi>
