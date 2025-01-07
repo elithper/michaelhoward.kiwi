@@ -7,7 +7,7 @@ theme = 'hugo-bearblog'
 # Basic metadata configuration for your blog.
 title = "Failing Productively"
 author = "Michael Howard"
-copyright = "Copyright © 2023, Michael Howard."
+copyright = "Copyright © 2021-2025, Michael Howard."
 languageCode = "en-NZ"
 
 # Generate a nice robots.txt for SEO
