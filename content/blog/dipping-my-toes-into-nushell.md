@@ -45,7 +45,7 @@ def send-to-object-storage [
 alias s2o = send-to-object-storage
 ```
 
-As you can see, I got a little carried away. But essetially it does the same thing. Just better.
+As you can see, I got a little carried away. But essentially it does the same thing. Just better.
 
 On a practical level, it's an improvement in that it checks the path to the file is valid before doing anything else. Though what I really prefer about the rewrite is the help message it displays.
 
