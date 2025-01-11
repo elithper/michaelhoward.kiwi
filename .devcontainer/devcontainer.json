@@ -15,8 +15,7 @@
 					"[Rosé Pine Dawn]": {
 						"sideBar.background": "#f2e9e1"
 					},
-				"editor.minimap.enabled": false,
-				"editor.lineNumbers": "relative"
+				"workbench.enableExperiments": false
 				}
 			},
 			"extensions": [
