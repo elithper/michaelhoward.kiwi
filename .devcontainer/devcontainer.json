@@ -10,10 +10,13 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
+				"workbench.colorTheme": "Rosé Pine Dawn",
 				"workbench.colorCustomizations": {
 					"[Rosé Pine Dawn]": {
 						"sideBar.background": "#f2e9e1"
-					}
+					},
+				"editor.minimap.enabled": false,
+				"editor.lineNumbers": "relative"
 				}
 			},
 			"extensions": [
