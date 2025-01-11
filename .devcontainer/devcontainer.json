@@ -1,0 +1,27 @@
+{
+	"name": "Debian",
+	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
+	"features": {
+		"ghcr.io/devcontainers/features/hugo:1": {}
+	},
+	"forwardPorts": [
+		1313
+	],
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"workbench.colorCustomizations": {
+					"[Rosé Pine Dawn]": {
+						"sideBar.background": "#f2e9e1"
+					}
+				}
+			},
+			"extensions": [
+				"jasew.vscode-helix-emulation",
+				"DavidAnson.vscode-markdownlint",
+				"streetsidesoftware.code-spell-checker",
+				"mvllow.rose-pine"
+			]
+		}
+	}
+}
