@@ -1,5 +1,5 @@
 {
-  "build": { "dockerfile": "Dockerfile"}
+  "build": { "dockerfile": "Dockerfile"},
   
   "features": {
     "ghcr.io/devcontainers/features/sshd:1": {
@@ -15,9 +15,9 @@
         "streetsidesoftware.code-spell-checker",
       ]
     }
-  }
+  },
   
   "forwardPorts": [
     1313
-  ],
+  ]
 }
