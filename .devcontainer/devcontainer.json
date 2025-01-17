@@ -1,32 +1,23 @@
 {
-  "name": "Debian",
-  "image": "mcr.microsoft.com/devcontainers/base:bullseye",
+  "build": { "dockerfile": "Dockerfile"}
+  
   "features": {
     "ghcr.io/devcontainers/features/sshd:1": {
       "version": "latest"
     },
     "ghcr.io/devcontainers/features/hugo:1": {}
   },
-  "forwardPorts": [
-    1313
-  ],
+  
   "customizations": {
     "vscode": {
-      "settings": {
-        "workbench.colorTheme": "Rosé Pine Dawn",
-        "workbench.colorCustomizations": {
-          "[Rosé Pine Dawn]": {
-            "sideBar.background": "#f2e9e1"
-          },
-        "workbench.enableExperiments": false
-        }
-      },
       "extensions": [
-        "jasew.vscode-helix-emulation",
         "DavidAnson.vscode-markdownlint",
         "streetsidesoftware.code-spell-checker",
-        "mvllow.rose-pine"
       ]
     }
   }
+  
+  "forwardPorts": [
+    1313
+  ],
 }
