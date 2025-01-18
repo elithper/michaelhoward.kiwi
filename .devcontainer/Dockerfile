@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/base:debian
+FROM mcr.microsoft.com/devcontainers/base:ubuntu
 RUN apt update && export DEBIAN_FRONTEND=noninteractive \
     && apt install -y --no-install-recommends \
     jq \
