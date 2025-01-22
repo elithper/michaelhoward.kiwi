@@ -7,6 +7,7 @@ RUN apt update && export DEBIAN_FRONTEND=noninteractive \
     ripgrep \
     htop \
     bat \
+    fd-find \
     && apt-get autoremove -y && apt-get clean -y
 
 COPY additional-packages/*.sh /tmp/additional-packages/
@@ -16,3 +17,11 @@ RUN cd /tmp/additional-packages && \
     /bin/bash broot.sh && \
     /bin/bash zellij.sh && \
     rm -rf /tmp/*
+
+USER vscode
+RUN mkdir -p ~/.local/bin && \
+    ln -s $(which fdfind) ~/.local/bin/fd && \
+    ln -s $(which batcat) ~/.local/bin/bat
+
+RUN broot --print-shell-function bash >> ~/.bashrc && \
+    broot --set-install-state installed

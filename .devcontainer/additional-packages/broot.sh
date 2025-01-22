@@ -12,6 +12,3 @@ esac;
 curl -L -o broot "$url"
 chmod +x broot
 mv broot /usr/local/bin/
-
-broot --print-shell-function bash > /etc/profile.d/broot.sh
-broot --set-install-state installed
