@@ -19,5 +19,7 @@
   
   "forwardPorts": [
     1313
-  ]
+  ],
+
+  "postCreateCommand": "sh .devcontainer/post-create.sh"
 }
