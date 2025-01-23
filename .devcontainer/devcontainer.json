@@ -1,5 +1,4 @@
 {
-  "name": "Ubuntu"
   "build": { "dockerfile": "Dockerfile"},
   
   "features": {
