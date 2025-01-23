@@ -17,6 +17,7 @@ RUN cd /tmp/additional-packages && \
     /bin/bash broot.sh && \
     /bin/bash zellij.sh && \
     /bin/bash marksman.sh && \
+    /bin/bash lazygit.sh && \
     rm -rf /tmp/*
 
 USER vscode
