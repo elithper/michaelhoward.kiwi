@@ -10,8 +10,9 @@ chmod 700 ~/.ssh
 chmod 600 ~/.ssh/id_ed25519
 chmod 644 ~/.ssh/id_ed25519.pub
 
-# add Sourcehut to known_hosts to avoid prompt
+# add Sourcehut + GitHub to known_hosts to avoid prompt
 ssh-keyscan -t ed25519 git.sr.ht > ~/.ssh/known_hosts
+ssh-keyscan -t ed25519 github.com >> ~/.ssh/known_hosts
 
 # set up multiple remotes
 git remote add all git@github.com:elithper/"$RepositoryName"
