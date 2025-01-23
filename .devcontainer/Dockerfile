@@ -16,6 +16,7 @@ RUN cd /tmp/additional-packages && \
     /bin/bash helix.sh && \
     /bin/bash broot.sh && \
     /bin/bash zellij.sh && \
+    /bin/bash marksman.sh && \
     rm -rf /tmp/*
 
 USER vscode
