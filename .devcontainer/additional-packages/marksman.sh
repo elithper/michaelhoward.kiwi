@@ -9,7 +9,7 @@ case "${dpkgArch##*-}" in
     *) echo >&2 "unsupported architecture: ${dpkgArch}"; exit 1 ;;
 esac;
 
-url="https://api.github.com/repos/zellij-org/zellij/releases/latest"
+url="https://api.github.com/repos/artempyanykh/marksman/releases/latest"
 curl -L -o marksman `curl -s "$url" | jq -r '.assets[].browser_download_url' | grep "$target"`
 chmod +x marksman
 mv marksman /usr/local/bin
