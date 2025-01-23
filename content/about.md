@@ -8,7 +8,7 @@ menu = "main"
 I'm Michael, a delivery engineer living and working in Wellington, NZ. I'm also a lover of anything to do with GNU/Linux and free and open source software.
 
 My current obsessions are:
-- Mechanical keyboards (small, ergonomic boards, in particular).
+- Mechanical keyboards (small, ergonomic boards, in particular)
 - E-ink displays and devices
 - Coffee
 - Automation
