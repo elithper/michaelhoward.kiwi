@@ -8,6 +8,7 @@ RUN apt update && export DEBIAN_FRONTEND=noninteractive \
     htop \
     bat \
     fd-find \
+    aspell \
     && apt-get autoremove -y && apt-get clean -y
 
 COPY additional-packages/*.sh /tmp/additional-packages/
