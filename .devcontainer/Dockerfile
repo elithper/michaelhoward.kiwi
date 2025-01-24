@@ -9,6 +9,7 @@ RUN apt update && export DEBIAN_FRONTEND=noninteractive \
     bat \
     fd-find \
     aspell \
+    aspell-en \
     && apt-get autoremove -y && apt-get clean -y
 
 COPY additional-packages/*.sh /tmp/additional-packages/
