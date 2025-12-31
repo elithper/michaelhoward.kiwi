@@ -31,7 +31,7 @@ The resulting triangular cluster is much more comfortable.
 
 I achieved this by making a small change to `miryoku/mapping/80/glove80.h` (you can see the thumb clusters in the centre of the bottom two lines), which leads me on to the next section…
 
-```c {hl_lines={[11,12]}
+```c
 #define MIRYOKU_LAYOUTMAPPING_GLOVE80( \
      K00, K01, K02, K03, K04,                                    K05, K06, K07, K08, K09, \
      K10, K11, K12, K13, K14,                                    K15, K16, K17, K18, K19, \
