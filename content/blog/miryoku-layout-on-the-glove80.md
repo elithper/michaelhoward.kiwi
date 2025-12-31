@@ -1,8 +1,8 @@
 +++
-title: “Miryoku layout on the Glove80”
-description: “An overview of how I build and use the Miryoku layout for the Glove80 keyboard”
-date: “2025-12-31”
-tags: [“keyboards”]
+title = “Miryoku layout on the Glove80”
+description = “An overview of how I build and use the Miryoku layout for the Glove80 keyboard”
+date = “2025-12-31”
+tags = [“keyboards”]
 +++
 
 [![Both halves of a white Glove80 split keyboard sitting on a grey deskmat](/images/glove80-scaled.jpeg)](https://assets.michaelhoward.kiwi/glove80.jpeg)
