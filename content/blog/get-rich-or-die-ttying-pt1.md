@@ -1,7 +1,7 @@
 +++
 title = "Get Rich or Die TTYing – Part 1: The REPL"
 description = "The first part in a series on Python's Rich library, focused on styling the REPL."
-date = "2026-01-07"
+date = "2026-01-09"
 tags = ["python", "rich", "grotd"]
 +++
 
