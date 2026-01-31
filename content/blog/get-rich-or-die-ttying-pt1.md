@@ -2,7 +2,7 @@
 title = "Get Rich or Die TTYing – Part 1: The REPL"
 description = "The first part in a series on Python's Rich library, focused on styling the REPL."
 date = "2026-01-09"
-tags = ["python", "rich", "grotd"]
+tags = ["python", "rich", "grodt"]
 +++
 
 This is the first post in a series where I explore everything you can (and

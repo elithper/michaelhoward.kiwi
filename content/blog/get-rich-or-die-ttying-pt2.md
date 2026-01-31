@@ -2,7 +2,7 @@
 title = "Get Rich or Die TTYing – Part 2: Console markup"
 description = "The second part in a series on Python's Rich library, focused on console markup."
 date = "2026-01-31"
-tags = ["python", "rich", "grotd"]
+tags = ["python", "rich", "grodt"]
 +++
 
 This is the second instalment in a series exploring everything you can (and
@@ -48,7 +48,7 @@ print("[underline]Get Rich or Die Tryin'")
 print("[u]Get Rich or Die Tryin'")
 ```
 
-![Get Rich or Die Tryin', underlined][grotd_underline]
+![Get Rich or Die Tryin', underlined][grodt_underline]
 
 ["Don't care, didn't ask,"][5] I hear your atrophied attention span say.
 
@@ -184,7 +184,7 @@ scripts, new or existing. With minimal effort, you can add some swag to your
 interesting place. Just don't overdo it (or do!), and keep in mind that not all
 terminals are created equal.
 
-[grotd_underline]: /images/rich_underline.png
+[grodt_underline]: /images/rich_underline.png
 [colours]: /images/markup_colours.png
 [bold]: /images/rich_print_bold.png
 [italic]: /images/rich_print_italic.png
